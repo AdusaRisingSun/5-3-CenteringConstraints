@@ -15,6 +15,7 @@
 		39F259351BA114000092DAE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39F259341BA114000092DAE4 /* Images.xcassets */; };
 		39F259381BA114000092DAE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F259361BA114000092DAE4 /* LaunchScreen.xib */; };
 		39F259441BA114000092DAE4 /* CenteringConstraintsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F259431BA114000092DAE4 /* CenteringConstraintsTests.m */; };
+		39F2594F1BA114C40092DAE4 /* ConstraintsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F2594E1BA114C40092DAE4 /* ConstraintsHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		39F2593D1BA114000092DAE4 /* CenteringConstraintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenteringConstraintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39F259421BA114000092DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39F259431BA114000092DAE4 /* CenteringConstraintsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CenteringConstraintsTests.m; sourceTree = "<group>"; };
+		39F2594D1BA114C40092DAE4 /* ConstraintsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstraintsHelper.h; sourceTree = "<group>"; };
+		39F2594E1BA114C40092DAE4 /* ConstraintsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstraintsHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,8 @@
 				39F259291BA114000092DAE4 /* AppDelegate.m */,
 				39F2592E1BA114000092DAE4 /* ViewController.h */,
 				39F2592F1BA114000092DAE4 /* ViewController.m */,
+				39F2594D1BA114C40092DAE4 /* ConstraintsHelper.h */,
+				39F2594E1BA114C40092DAE4 /* ConstraintsHelper.m */,
 				39F259311BA114000092DAE4 /* Main.storyboard */,
 				39F259341BA114000092DAE4 /* Images.xcassets */,
 				39F259361BA114000092DAE4 /* LaunchScreen.xib */,
@@ -225,6 +230,7 @@
 				39F2592D1BA114000092DAE4 /* CenteringConstraints.xcdatamodeld in Sources */,
 				39F2592A1BA114000092DAE4 /* AppDelegate.m in Sources */,
 				39F259301BA114000092DAE4 /* ViewController.m in Sources */,
+				39F2594F1BA114C40092DAE4 /* ConstraintsHelper.m in Sources */,
 				39F259271BA114000092DAE4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
